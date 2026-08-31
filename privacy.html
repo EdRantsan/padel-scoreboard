@@ -6,8 +6,9 @@
   <title>Privacy Policy - Padel Scoreboard</title>
   <style> 
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 2em; max-width: 800px; margin: 0 auto; line-height: 1.6; color: #333; }
-    h1, h2 { color: #111; }
+    h1, h2, h3 { color: #111; }
     ul { padding-left: 20px; }
+    a { color: #135bec; text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -19,26 +20,64 @@
   <ul>
     <li><strong>Name:</strong> Edgars Rancans</li>
     <li><strong>Address:</strong> Riga, LV-1018, Latvia</li>
-    <li><strong>Email:</strong> padel.scoreboard.support@gmail.com</li>
+    <li><strong>Email:</strong> <a href="mailto:padel.scoreboard.support@gmail.com">padel.scoreboard.support@gmail.com</a></li>
   </ul>
 
-  <h2>Data Collection and Usage</h2>
-  <p>The Application operates primarily offline and stores match data locally on your device. The Service Provider does not require user registration and does not collect or process personally identifiable information (PII) on external servers.</p>
+  <h2>Local Data Storage</h2>
+  <p>The Application is designed with privacy at its core. Your core match records, customized player names, scores, training logs, and personal settings are stored locally on your device using on-device storage. The Service Provider does not require account creation or personal login credentials to use the Application.</p>
+
+  <h2>Third-Party Services and Automatically Collected Data</h2>
+  <p>To diagnose technical crashes, monitor application performance, and understand aggregate feature adoption, the Application integrates backend telemetry services provided by <strong>Google Firebase</strong> (Google LLC). When using the Application, certain diagnostic and technical information is automatically collected and processed:</p>
+
+  <h3>1. Crash Diagnostics (Firebase Crashlytics)</h3>
+  <ul>
+    <li>Stack traces and error logs associated with crashes or unexpected exceptions.</li>
+    <li>Device metadata (device model, manufacturer, operating system version, available storage, and device orientation at the time of a crash).</li>
+    <li>Application version and build number.</li>
+    <li><em>Purpose:</em> Resolving software bugs, preventing regressions, and ensuring app reliability.</li>
+  </ul>
+
+  <h3>2. Usage Analytics (Google Analytics for Firebase)</h3>
+  <ul>
+    <li>Pseudonymous identifiers (such as Firebase Installation IDs / Instance IDs).</li>
+    <li>Aggregated interaction events (e.g., match format selected, set counts, duration brackets, backup export/import triggers, theme/language preferences).</li>
+    <li>Screen navigation flows (screens viewed without personal inputs).</li>
+    <li><em>Purpose:</em> Understanding feature popularity and improving the user experience. No personal player names or private match notes are sent to analytics.</li>
+  </ul>
+
+  <h3>3. Performance Monitoring (Firebase Performance Monitoring)</h3>
+  <ul>
+    <li>Application startup time, screen rendering latency, and background responsiveness.</li>
+    <li><em>Purpose:</em> Identifying performance bottlenecks and optimizing render performance.</li>
+  </ul>
+
+  <p>For more details on how Google processes telemetry data, please review:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+    <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy & Security Information</a></li>
+  </ul>
+
+  <h2>Data Retention</h2>
+  <ul>
+    <li><strong>Crash Diagnostics:</strong> Crashlytics retains crash events and diagnostic stack traces for 90 days, after which they are automatically deleted.</li>
+    <li><strong>Analytics Data:</strong> Aggregated event data is retained in accordance with standard Google Analytics retention windows (up to 14 months).</li>
+    <li><strong>Local Match Data:</strong> Retained on your device indefinitely until you manually clear app data or uninstall the Application.</li>
+  </ul>
+
+  <h2>Data Transfers and Security</h2>
+  <p>All telemetry data sent to Google Firebase is encrypted in transit using industry-standard Transport Layer Security (TLS/HTTPS). Google adheres to standard data processing agreements for European Economic Area (EEA) data transfers.</p>
 
   <h2>Location and AI Technologies</h2>
-  <p>The Application does not track your device's precise real-time location nor does it employ Artificial Intelligence (AI) algorithms to process personal data.</p>
+  <p>The Application does not request or track your device's precise real-time GPS location. The Application does not use Artificial Intelligence (AI) algorithms to profile or process personal data.</p>
 
   <h2>Children's Privacy</h2>
-  <p>The Application is not directed to children under the age of 16. The Service Provider does not knowingly collect personally identifiable information from children.</p>
-
-  <h2>Security</h2>
-  <p>Since data is stored locally on your device, the security of your match history depends on your mobile device's security settings and access controls.</p>
+  <p>The Application is not directed toward children under the age of 16. The Service Provider does not knowingly collect personally identifiable information from children.</p>
 
   <h2>Your GDPR Rights</h2>
-  <p>Under the GDPR, you have rights regarding your data, including the right to access, rectify, or erase any personal data (if applicable). For any privacy inquiries, contact the Data Controller at <a href="mailto:padel.scoreboard.support@gmail.com">padel.scoreboard.support@gmail.com</a>.</p>
+  <p>Under the General Data Protection Regulation (GDPR), you have rights regarding your personal data, including the right to inquire about data processing, access, or request erasure of technical records where applicable. For any privacy requests or inquiries, please contact: <a href="mailto:padel.scoreboard.support@gmail.com">padel.scoreboard.support@gmail.com</a>.</p>
 
   <h2>Changes to This Policy</h2>
-  <p>This Privacy Policy may be updated from time to time. Changes will be published on this page with an updated effective date.</p>
-  <p><strong>Effective Date:</strong> July 31, 2026</p>
+  <p>This Privacy Policy may be updated periodically to reflect software improvements, regulatory updates, or service changes. Updated versions will be posted directly to this URL with a revised effective date.</p>
+  <p><strong>Effective Date:</strong> August 31, 2026</p>
 </body>
 </html>
